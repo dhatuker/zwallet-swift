@@ -19,6 +19,9 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.layer.backgroundColor = UIColor(red: 0.98, green: 0.988, blue: 1, alpha: 1).cgColor
+        
         self.imgEmail.image = UIImage(systemName: "envelope.fill")
         self.imgPass.image = UIImage(systemName: "lock.fill")
         
