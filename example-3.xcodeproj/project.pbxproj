@@ -13,6 +13,10 @@
 		774C2BA427F2A45F00B11E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774C2BA227F2A45F00B11E1A /* Main.storyboard */; };
 		774C2BA627F2A45F00B11E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774C2BA527F2A45F00B11E1A /* Assets.xcassets */; };
 		774C2BA927F2A45F00B11E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774C2BA727F2A45F00B11E1A /* LaunchScreen.storyboard */; };
+		774C2BB227F2A89200B11E1A /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 774C2BB127F2A89200B11E1A /* NunitoSans-Regular.ttf */; };
+		774C2BB427F2A8B100B11E1A /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 774C2BB327F2A8B100B11E1A /* NunitoSans-Bold.ttf */; };
+		774C2BB627F2A8C000B11E1A /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 774C2BB527F2A8C000B11E1A /* NunitoSans-Light.ttf */; };
+		778248B327F2DC9F0075EBC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778248B227F2DC9F0075EBC2 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		774C2BA527F2A45F00B11E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		774C2BA827F2A45F00B11E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		774C2BAA27F2A45F00B11E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774C2BB127F2A89200B11E1A /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		774C2BB327F2A8B100B11E1A /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		774C2BB527F2A8C000B11E1A /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		778248B227F2DC9F0075EBC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		774C2B9B27F2A45F00B11E1A /* example-3 */ = {
 			isa = PBXGroup;
 			children = (
+				774C2BB027F2A84500B11E1A /* Fonts */,
 				774C2B9C27F2A45F00B11E1A /* AppDelegate.swift */,
 				774C2B9E27F2A45F00B11E1A /* SceneDelegate.swift */,
 				774C2BA027F2A45F00B11E1A /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				774C2BA527F2A45F00B11E1A /* Assets.xcassets */,
 				774C2BA727F2A45F00B11E1A /* LaunchScreen.storyboard */,
 				774C2BAA27F2A45F00B11E1A /* Info.plist */,
+				778248B227F2DC9F0075EBC2 /* LoginViewController.swift */,
 			);
 			path = "example-3";
+			sourceTree = "<group>";
+		};
+		774C2BB027F2A84500B11E1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				774C2BB527F2A8C000B11E1A /* NunitoSans-Light.ttf */,
+				774C2BB327F2A8B100B11E1A /* NunitoSans-Bold.ttf */,
+				774C2BB127F2A89200B11E1A /* NunitoSans-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,9 @@
 				774C2BA927F2A45F00B11E1A /* LaunchScreen.storyboard in Resources */,
 				774C2BA627F2A45F00B11E1A /* Assets.xcassets in Resources */,
 				774C2BA427F2A45F00B11E1A /* Main.storyboard in Resources */,
+				774C2BB627F2A8C000B11E1A /* NunitoSans-Light.ttf in Resources */,
+				774C2BB427F2A8B100B11E1A /* NunitoSans-Bold.ttf in Resources */,
+				774C2BB227F2A89200B11E1A /* NunitoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778248B327F2DC9F0075EBC2 /* LoginViewController.swift in Sources */,
 				774C2BA127F2A45F00B11E1A /* ViewController.swift in Sources */,
 				774C2B9D27F2A45F00B11E1A /* AppDelegate.swift in Sources */,
 				774C2B9F27F2A45F00B11E1A /* SceneDelegate.swift in Sources */,
